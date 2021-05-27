@@ -26,11 +26,14 @@
                 android:orientation="vertical"
                 app:cardCornerRadius="10dp">
 
-                <ImageView
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/red" />
+                    android:text="@string/alpha_animation"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -38,13 +41,13 @@
                     android:layout_marginTop="250dp"
                     android:background="@drawable/cardshape"
                     android:gravity="center"
-                    android:text="Red color"
+                    android:text="@string/start_animation"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <androidx.appcompat.widget.SwitchCompat
-                    android:id="@+id/switchred"
+                    android:id="@+id/switchalpha"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="230dp"
@@ -53,7 +56,6 @@
 
             </androidx.cardview.widget.CardView>
 
-
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
@@ -64,11 +66,14 @@
                 android:orientation="vertical"
                 app:cardCornerRadius="10dp">
 
-                <ImageView
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/orange" />
+                    android:text="@string/scale_animation"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -76,18 +81,18 @@
                     android:layout_marginTop="250dp"
                     android:background="@drawable/cardshape"
                     android:gravity="center"
-                    android:text="Orange color"
+                    android:text="@string/start_animation"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
-                <Switch
-                    android:id="@+id/switchorange"
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchscale"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
+                    android:layout_marginStart="230dp"
                     android:layout_marginLeft="230dp"
-                    android:layout_marginTop="250dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    android:layout_marginTop="250dp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -101,11 +106,14 @@
                 android:orientation="vertical"
                 app:cardCornerRadius="10dp">
 
-                <ImageView
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/yellow" />
+                    android:text="@string/translate_animation"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -113,18 +121,18 @@
                     android:layout_marginTop="250dp"
                     android:background="@drawable/cardshape"
                     android:gravity="center"
-                    android:text="Yellow color"
+                    android:text="@string/start_animation"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
-                <Switch
-                    android:id="@+id/switchyellow"
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchtranslate"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
+                    android:layout_marginStart="230dp"
                     android:layout_marginLeft="230dp"
-                    android:layout_marginTop="250dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    android:layout_marginTop="250dp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -138,11 +146,14 @@
                 android:orientation="vertical"
                 app:cardCornerRadius="10dp">
 
-                <ImageView
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/green" />
+                    android:text="Rotate Animation"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -150,18 +161,18 @@
                     android:layout_marginTop="250dp"
                     android:background="@drawable/cardshape"
                     android:gravity="center"
-                    android:text="Green color"
+                    android:text="@string/start_animation"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
-                <Switch
-                    android:id="@+id/switchgreen"
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchrotate"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
+                    android:layout_marginStart="230dp"
                     android:layout_marginLeft="230dp"
-                    android:layout_marginTop="250dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    android:layout_marginTop="250dp" />
 
             </androidx.cardview.widget.CardView>
 
@@ -175,11 +186,14 @@
                 android:orientation="vertical"
                 app:cardCornerRadius="10dp">
 
-                <ImageView
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/blue" />
+                    android:text="@string/combination_animation"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -187,93 +201,18 @@
                     android:layout_marginTop="250dp"
                     android:background="@drawable/cardshape"
                     android:gravity="center"
-                    android:text="Blue color"
+                    android:text="@string/start_animation"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
-                <Switch
-                    android:id="@+id/switchblue"
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchcombination"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
+                    android:layout_marginStart="230dp"
                     android:layout_marginLeft="230dp"
-                    android:layout_marginTop="250dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="30dp"
-                android:foreground="@drawable/cardshape"
-                android:orientation="vertical"
-                app:cardCornerRadius="10dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/indigo" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:background="@drawable/cardshape"
-                    android:gravity="center"
-                    android:text="Indigo color"
-                    android:textColor="@color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <Switch
-                    android:id="@+id/switchindigo"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="230dp"
-                    android:layout_marginTop="250dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginBottom="50dp"
-                android:foreground="@drawable/cardshape"
-                android:orientation="vertical"
-                app:cardCornerRadius="10dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@color/violet" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="250dp"
-                    android:background="@drawable/cardshape"
-                    android:gravity="center"
-                    android:text="@string/violet_color"
-                    android:textColor="@color/black"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <Switch
-                    android:id="@+id/switchviolet"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="230dp"
-                    android:layout_marginTop="250dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    android:layout_marginTop="250dp" />
 
             </androidx.cardview.widget.CardView>
 

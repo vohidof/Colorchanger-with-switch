@@ -18,11 +18,11 @@ object MySharedPreference {
         editor.apply()
     }
 
-    var color: Int
-        get() = preferences.getInt("color", 0)!!
+    var animation: Int
+        get() = preferences.getInt("animation", 0)!!
         set(value) = preferences.edit {
             if (value != null) {
-                it.putInt("color", value)
+                it.putInt("animation", value)
             }
         }
 
